@@ -1,0 +1,40 @@
+{
+  "name": "leviosa-theme",
+  "displayName": "Leviosa Theme",
+  "description": "Wingardium Leviosa",
+  "author": {
+    "name": "slatchma"
+  },
+  "publisher": "slatchma",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slatchma/leviosa-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/slatchma/leviosa-theme/issues"
+  },
+  "icon": "icons/leviosa-logo.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "leviosa",
+    "wingardium leviosa",
+    "slatchma",
+    "harry potter",
+    "blue"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leviosa Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leviosa-theme.json"
+      }
+    ]
+  }
+}
